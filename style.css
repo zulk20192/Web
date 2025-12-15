@@ -20,7 +20,7 @@ header {
 }
 
 .card {
-  background: white;
+  background: white,yellow;
   padding: 15px;
   width: 250px;
   border-radius: 8px;
