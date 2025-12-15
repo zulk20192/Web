@@ -1,43 +1,30 @@
-* {
-  font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
-  background: #f5f7fa;
-  color: #333;
-  transition: 0.3s;
+  font-family: Arial;
+  background: #f4f6f8;
+  padding: 20px;
 }
 
-.hero {
-  background: linear-gradient(135deg,#667eea,#764ba2);
-  color: white;
-  text-align: center;
-  padding: 50px 20px;
+input,button {
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
 }
 
-.hero button {
-  margin-top: 15px;
-  padding: 8px 15px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
+button {
+  margin-bottom: 10px;
 }
 
 .produk {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-  gap: 20px;
-  padding: 30px;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 15px;
 }
 
 .card {
   background: white;
-  padding: 20px;
-  border-radius: 15px;
-  text-align: center;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .harga {
@@ -46,31 +33,10 @@ body {
 }
 
 .btn {
-  display: inline-block;
-  margin-top: 15px;
   background: #25D366;
   color: white;
-  padding: 10px 20px;
-  border-radius: 20px;
+  padding: 8px 15px;
   text-decoration: none;
-}
-
-footer {
-  text-align: center;
-  padding: 15px;
-  background: #eee;
-}
-
-/* DARK MODE */
-body.dark {
-  background: #121212;
-  color: #eee;
-}
-
-body.dark .card {
-  background: #1e1e1e;
-}
-
-body.dark footer {
-  background: #1a1a1a;
+  border-radius: 20px;
+  display: inline-block;
 }
