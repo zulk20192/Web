@@ -5,39 +5,42 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Modern Shop</title>
 <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <header class="hero">
   <h1>Modern Shop</h1>
-  <p>Belanja cepat & terpercaya</p>
-  <button onclick="toggleMode()">🌙 Dark Mode</button>
+  <p>Belanja mudah • Cepat • Aman</p>
+  <a href="#produk" class="cta">Lihat Produk</a>
 </header>
 
-<section class="produk">
+<section id="produk" class="produk">
   <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="">
     <h3>Produk A</h3>
     <p class="harga">Rp10.000</p>
-    <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20order%20Produk%20A" class="btn">Beli</a>
+    <a href="https://wa.me/628xxxxxxxxx" class="btn">Beli</a>
   </div>
 
   <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="">
     <h3>Produk B</h3>
     <p class="harga">Rp25.000</p>
-    <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20order%20Produk%20B" class="btn">Beli</a>
+    <a href="https://wa.me/628xxxxxxxxx" class="btn">Beli</a>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="">
+    <h3>Produk C</h3>
+    <p class="harga">Rp50.000</p>
+    <a href="https://wa.me/628xxxxxxxxx" class="btn">Beli</a>
   </div>
 </section>
 
 <footer>
-  © 2025 Modern Shop
+  <p>© 2025 Modern Shop</p>
 </footer>
-
-<script>
-function toggleMode() {
-  document.body.classList.toggle("dark");
-}
-</script>
 
 </body>
 </html>
